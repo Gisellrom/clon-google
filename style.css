@@ -4,12 +4,11 @@
 }
 
 header{
-    width: 100%;
+    height: 8vh;
     display: flex;
     flex-direction:column;
     align-items: end;
-
-   
+    justify-content: center;
 }
 
 .icon-header{
@@ -33,9 +32,15 @@ body{
 }
 
 main{
+    height: 78vh;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
     text-align: center;
     position: relative;
-    margin-bottom: 100px;
 }
 p{
     color: white;
@@ -46,7 +51,19 @@ p{
     display: inline-block;
     width: 24px;
     height: 24px;
-    padding-bottom: 15px;
+    border-radius: 20px;
+}
+
+#inputBuscador {
+    outline: none;
+    border: none;
+}
+.campoBuscador {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+    border-radius: 25px;
+    background-color: white;
 }
 
 ul{
@@ -60,11 +77,9 @@ header ul li{
 
 }
 footer{
-    background-color: rgb(69, 46, 73);
     color: white;
-    position:absolute;
-    bottom: 0;
-    width: 100%;
+    height: auto;
+    
 }
 footer ul{
     display: inline-block;
@@ -79,9 +94,12 @@ footer ul li{
 button{
     border: none; 
     color: black; 
-    padding: 10px 20px; 
+    padding: 15px 20px;
     cursor: pointer; 
     border-radius: 5px;
+}
+article {
+    margin-top: 15px;
 }
 
 
