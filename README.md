@@ -53,12 +53,13 @@ Aplicarás:
 
 
 ## 5. Requisitos
-
-Usa esta lista para saber los requisitos mínimos del proyecto:
+Utilizar:
+- HTML
+- CSS
 
 ### GENERAL
 
-Realizarse de manera individual
+Para este titio web se aplicaron conocimientos como la utilización de Visual Studio Code, además de los lenguajes de programación web básicos
 
 ### UI
 - [ ] Aplicar en todo el sitio HTML semántico de estándar no.5 (HTML5).
