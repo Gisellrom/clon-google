@@ -1,34 +1,37 @@
 *{
     font-family: 'Roboto', sans-serif;
+}
+body{
+    background-image: url(./img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
     
 }
 
 header{
     height: 8vh;
     display: flex;
-    flex-direction:column;
-    align-items: end;
-    justify-content: center;
+    justify-content: flex-end;
+    
+}
+ul {
+    display: flex;
+    align-items: center;
+}
+
+ul li{
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 .icon-header{
-    display: inline-block;
     width: 24px;
-    height: 24px;
-    
+    height: 24px; 
 }
 
 #face{
     border-radius: 25px 35px 45px 55px;
-}
-
-
-
-body{
-    background-image: url(./img/fondo.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
 }
 
 main{
@@ -44,6 +47,7 @@ main{
 }
 p{
     color: white;
+    margin: 0px;
 }
 
 .icon-buscador{
@@ -52,15 +56,17 @@ p{
     width: 24px;
     height: 24px;
     border-radius: 20px;
+    padding: 10px;
 }
 
 #inputBuscador {
     outline: none;
     border: none;
+    width: 250px;
 }
 .campoBuscador {
     display: flex;
-    align-items: baseline;
+    align-items: stretch;
     justify-content: space-around;
     border-radius: 25px;
     background-color: white;
@@ -79,6 +85,7 @@ header ul li{
 footer{
     color: white;
     height: auto;
+    margin-bottom: 15px;
     
 }
 footer ul{
@@ -94,9 +101,10 @@ footer ul li{
 button{
     border: none; 
     color: black; 
-    padding: 15px 20px;
+    padding: 10px 10px;
     cursor: pointer; 
     border-radius: 5px;
+    margin-left: 10px;
 }
 article {
     margin-top: 15px;
