@@ -6,11 +6,11 @@ Proyecto realizado con la intención de aplicar los conocimientos obtenidos en e
 
 ## ÍNDICE
 
-* [1. Intro](https://github.com/Gisellrom/clon-google/tree/main#1.intro)
-* [2. Demo](https://github.com/Gisellrom/clon-google/tree/main#2.-demo)
-* [3. ¿Qué construirás?](https://github.com/Gisellrom/clon-google/tree/main#3.-¿Qué-construirás?)
-* [4. Objetivos de aprendizaje](https://github.com/Gisellrom/clon-google/tree/main#4.-objetivos-de-aprendizaje)
-* [5. Requisitos](https://github.com/Gisellrom/clon-de-google/tree/main#5.-requisitos)
+* [1. Intro](#1.intro)
+* [2. Demo](#2.-demo)
+* [3. ¿Qué construirás?](#3.-¿Qué-construirás?)
+* [4. Objetivos de aprendizaje](#4.-objetivos-de-aprendizaje)
+* [5. Requisitos](#5.-requisitos)
 
 ****
 
